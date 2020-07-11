@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0064)https://cims.nyu.edu/~nt42/private/assignments/assignment03.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>CSCI-UA.0002-001: Introduction to Computers and Programming</title>
+<link href="./Assignment 3_files/Python_styles_sp15.css" rel="stylesheet" type="text/css">
+</head>
+<body data-gr-c-s-loaded="true">
+			  <div id="main">
+	              <p>For this assignment you will be writing 2 programs which should be saved independently as their own ".py" file. The filename you should use for each program is outlined in the sections below.  When you're finished you should submit your programs to the Assignment #3 category inside of NYU Classes.</p>
+              </div>
+              
+              <h3>In-class Warm Up Exercises</h3>
+              
+              <div class="alert alert-warning">You don't need to turn in any source code for these problems.</div>
+              <!-- <div class="alert alert-warning">Note: we will be solving this problem in class as a group.  You don't need to turn in any source code for this problem.</div>-->
+			  
+			  <ol>
+
+			  <li>Write a Python program to calculate the area of a parallelogram.
+			  <p>Note: A parallelogram is a quadrilateral with opposite sides parallel (and therefore opposite angles equal). A quadrilateral with equal sides is called a rhombus, and a parallelogram whose angles are all right angles is called a rectangle.
+			  </p>
+			  </li>
+			  <pre># Sample Output:
+Length of base: 5
+Measurement of height: 6
+Area is: 30</pre>
+			  
+			  <li><p>Write a program that does the following:</p></li>
+			  </ol>
+
+			  <ul>
+			  	<li>Prompt the user to enter in the dimensions of two different rectangles. Store these values in 4
+different variables.</li>
+				<li>Calculate the area of each rectangle. Area of a rectangle is computed by multiplying length by
+width.</li>
+				<li>Determine which rectangle is larger and print out the result. If the rectangles are the same you
+should tell the user with a special print statement (i.e. Rectangle #1 and Rectangle #2 are the same
+size)</li>
+				<li>Determine if either rectangle is a square. If so, tell the user.</li>
+				<li>Comment your source code and describe your code to someone who may be viewing it for the first
+time.
+<pre># Sample running #1:
+Enter the width for Rectangle #1: 5
+Enter the length for Rectangle #1: 10
+
+Enter the width for Rectangle #2: 3
+Enter the length for Rectangle #2: 5
+
+Rectangle #1 has an area of 50
+Rectangle #2 has an area of 15
+
+Rectangle #1 is larger than Rectangle #2
+</pre>
+<pre># Sample running #2:
+Enter the width for Rectangle #1: 5
+Enter the length for Rectangle #1: 10
+
+Enter the width for Rectangle #2: 3
+Enter the length for Rectangle #2: 3
+
+Rectangle #1 has an area of 50
+Rectangle #2 has an area of 9
+Rectangle #2 is a square!
+
+Rectangle #1 is larger than Rectangle #2</pre></li>
+				<li>You may assume that your user gives you reasonable numbers to work with. The user will only enter integers
+for this program.</li>
+			</ul>
+			
+			<br style="page-break-after: always;">
+			
+			
+			<h3>Problem #1: Valid Triangle Tester</h3>
+			
+			<ul>
+				<li>Prompt the user to enter in 3 points on a standard Cartesian coordinate plane. You can assume the user will enter these values as floating point numbers.</li>
+				<li>Compute the distance between each points - you will be computing 3 distance values. Use the
+distance formula to do this <pre>( (x1-x2)^2 + (y1-y2)^2 ) ** 0.5</pre> - note that you can raise a value to the 0.5
+power to compute the square root, or you can use the sqrt() function in the math module - your choice!</li>
+				<li>Report the distance to the user of each side, rounded to 2 decimal places</li>
+				<li>Next, determine if the three points could form a valid triangle. You can assume that the triangle
+is valid by checking the following:
+<pre>(a) Side a + Side b must be longer than Side c
+(b) Side b + Side c must be longer than Side a
+(c) Side a + Side c must be longer than Side b</pre></li>
+				<li>Here are some sample runnings of the program, as well as a diagram that will help you to visualize the
+problem:
+
+					<div style="width: 500px; height: 361px; margin-top: 25px; margin-bottom: 25px; text-align: center;">
+						<img src="./Assignment 3_files/triangle_problem.jpg" style="width: 100%; height: 100%;"><br>
+						Valid Triangle
+					</div>
+					<br>
+
+<pre>Valid Triangle Tester
+Enter Point #1 - x position: 0
+Enter Point #1 - y position: 0
+Enter Point #2 - x position: 0
+Enter Point #2 - y position: 100
+Enter Point #3 - x position: 100
+Enter Point #3 - y position: 0
+
+The length of each side of your test shape is:
+Side 1: 100.00
+Side 2: 141.42
+Side 3: 100.00
+
+This is a valid triangle!</pre>
+
+<pre>Valid Triangle Tester
+Enter Point #1 - x position: 0
+Enter Point #1 - y position: 0
+Enter Point #2 - x position: 75
+Enter Point #2 - y position: 25
+Enter Point #3 - x position: 110
+Enter Point #3 - y position: 100
+
+The length of each side of your test shape is:
+Side 1: 79.06
+Side 2: 82.76
+Side 3: 148.66
+
+This is a valid triangle!</pre>
+<pre>Valid Triangle Tester
+Enter Point #1 - x position: 0
+Enter Point #1 - y position: 0
+Enter Point #2 - x position: 50
+Enter Point #2 - y position: 50
+Enter Point #3 - x position: 100
+Enter Point #3 - y position: 100
+
+The length of each side of your test shape is:
+Side 1: 70.71
+Side 2: 70.71
+Side 3: 141.42
+
+This is not a valid triangle</pre></li>
+<li>Make sure that the output of your code matches the formatting of the sample input and output.</li>
+<li>Comment your source code and describe your code to someone who may be viewing it for the first
+time. Also include your name, the date, your class section and the name of your program at the top of
+your file.</li>
+</ul>
+<p>This program should be named as follows:
+LastNameFirstName_assign3_problem1.py (for example, "TysonNaim_assign3_problem1.py")</p>
+
+
+			<br style="page-break-after: always;">
+
+<h3>Problem #2: NYU Calendar</h3>
+
+	<p>For this assignment you will be writing a program that will be able to tell a user whether s/he has the day
+off for any given day during the current semester (Spring 2020). To get started, open up the official Spring
+2020 academic calendar by visiting this link: <a href="https://cs.nyu.edu/webapps/Undergraduate/calendar" target="_blank">https://cs.nyu.edu/webapps/Undergraduate/calendar</a>. These are the dates that you should account for during this academic term:
+
+</p><pre>Beginning of term:   Monday, January 27, 2020
+Presidents Day:      Monday, February 17, 2020
+Spring Break:        Monday, March 16, 2020 - Sunday, March 22, 2020
+Last day of classes: Monday, May 11th, 2020</pre><p></p>
+<!-- <pre>Beginning of term: 		Tuesday, September 3, 2019
+Columbus Day:           	Monday, October 14, 2019
+Thanksgiving Break:     	Wednesday, November 27, 2019 - Friday, November 29, 2019
+Last day of classes:    	Friday, December 13, 2019</pre></p>
+<pre>Beginning of term:        Monday, January 26, 2015
+Presidents Day:           Monday, February 16, 2015
+Spring Break:             Monday, March 16, 2015 - Friday, March 22, 2015
+Last day of classes:      Monday, May 11, 2015</pre></p> -->
+<p>Here is how it should work: </p>
+	<ul>
+		<li>The user should be prompted to enter a number for the month and then prompted
+to enter a number for the day. (For example, entering "2" for the month and "14" for the day would represent
+February 14)</li>
+	<li>The program will tell the user if school is not in session and tell the user why. For example:
+February 17 is Presidents Day. This is a school holiday at NYU.</li>
+	<li>If the day selected is not a holiday, the program should print out a message such as:
+February 1 is not a school holiday at NYU.</li>
+	<li>Do not worry about weekends.  You can report that NYU is open if the user enters a weekend date.</li>
+	<li>Make sure that the output of your code matches the formatting of the sample input and output.</li>
+	<li>Your program should also handle dates that come before or after the semester. For example:
+	<pre>January 1 is before the Spring 2020 term.
+December 30 is after the Spring 2020 term.</pre></li>
+	<!-- <pre>January 10 is before the Spring 2015 term.
+May 30 is after the Spring 2015 term.</pre></li> -->
+	<li>Your program should also handle invalid dates. For example:
+	<pre>Enter a month: 13
+Enter a day: 7
+
+That's not a valid date!</pre>
+	<pre>Enter a month: 2
+Enter a day: 30
+
+That's not a valid date!</pre></li></ul>
+
+<p>Hints:</p>
+	<ul>
+		<li>The program should make sure that the user provides a date within the correct range (01/27/20 -
+05/20/20) and tell the user if they picked a date outside of the dates under consideration.</li>
+		<li>The program should check to be sure that the month and day that the student enters are valid and tell
+the user if they are not.</li>
+		<li>Some NYU holidays stretch out over multiple days.</li>
+		<li>Your program can assume that the user will type in an integer. You should convert all values given to
+you by the user into integers for calculation purposes.</li>
+		<li>You can assume that all dates entered are for the year 2020.</li>
+		<li>It might be helpful to convert numeric months values into their English equivalents.  You can do this using a series of "if" statements to test the number for the month and then store the English version of the month in a new variable. For example:
+		<pre>Enter a month (1-12): 5
+
+Month #5 is May.</pre>
+		</li><li>Here are some sample runs of the program:
+<pre>// run 1
+Enter a month (1-12): 0
+Enter a day (1-31): 0
+Sorry, that's not a valid date.</pre>
+
+<pre>// run 2
+Enter a month (1-12): 1
+Enter a day (1-31): 1
+January 1 is before the start of the Fall 2019 term.</pre>
+
+<pre>// run 3
+Enter a month (1-12): 2
+Enter a day (1-31): 31
+That's not a valid date!</pre>
+
+<pre>// run 3
+Enter a month (1-12): 2
+Enter a day (1-31): 1
+February 1 is not a holiday at NYU. NYU is open on this day.</pre>
+
+<pre>// run 4
+Enter a month (1-12): 3
+Enter a day (1-31): 18
+March 18 is Spring Break. NYU is not open on this day.</pre>
+
+<pre>// run 5
+Enter a month (1-12): 11
+Enter a day (1-31): 40
+That's not a valid date!</pre>
+
+<pre>// run 6
+Enter a month (1-12): 12
+Enter a day (1-31): 29
+The date you entered is after the end of the Spring 2020 term.</pre>
+
+<p>This program should be named as follows:
+LastNameFirstName_assign3_problem2.py (for example, "TysonNaim_assign3_problem2.py")</p>
+			  
+
+</li></ul></body><div id="__genieContainer" style="all: initial;"></div></html>
