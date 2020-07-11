@@ -1,0 +1,31 @@
+CSCI-UA.0002-2: Introduction to Computer Programming, Spring 2020
+Section #011;
+
+Course Dynamics
+
+This course is structured as a "blended learning" format. This means is that a good portion of the lecture and reading material are presented in interactive online modules. The class is broken primarily into three components:
+
+Online learning modules - Before each week's topics you will be expected to complete the online learning module: https://cs.nyu.edu/elearning/CSCI_UA_0002/. These modules contain video, text and interactive programming exercises. When you are finished wtih a module you will be asked to take a short online quiz (via NYU Classes) to test your understanding of the concepts presented in the module.
+In-class discussion and application of principles - One class period per week will focus on the design concepts and application of the principles taught in the online learning module.
+In-class workshops - Weekly assignment will be presented in the other class period. The professor and two T.A.'s will be available in class to provide support and guidance as necessary.
+
+Assignments
+
+There will be ten assignments in this course that will be assigned on a weekly basis. In general, assignments are due weekly at 11:55 PM of the date specified (which is generally the night before the following assignment is presented). For a full outline of assignment due dates please refer to the schedule.
+
+It is important not to get behind in turning your assignments (this class is cumulative). Late submissions will be penalized by 10% off per day late, and assignments that are more than 7 days late can not be turned in for credit. That being said, sometimes there are unforeseen situations that may impede your progress, as a result you are being given 7 deferral days for the entire semester. These deferal days cover all late submissions regardless of personal, professional, or technical related delays (e.g. a job interview, computer hardware failure, etc.) and no further exceptions will be granted (so don't waste them simply by procrastinating). You don't need to do anything special to use these deferral days - the course graders will keep track of these on your behalf and will apply them to your work as necessary. [Please note: if you experience a hardship such as a death in the family, a hospitalization or other life issue that prevents you from coming to class or completing your work, please let me (Na'im) know so that we can together to help you through. ]
+
+You will be using NYU Classes to turn in your homework assignments. It is your responsibility to make sure that your assignments have been submitted successfully. You can do this by simply attempting to download your work after it has been uploaded to the system – if you are able to do so, your assignment was submitted successfully. If you do have trouble with NYU classes you can always e-mail your homework to me directly; I will also provide a separate email for the grader in the event that you are asked for another submission.
+
+All grading will be done on NYU Classes as well and you can check your grades at any time by logging in there and following the "Gradebook" link. If you notice an irregularity (i.e. you mistakenly lost points for an item that you successfully completed) please let me know and I will be happy to sit down with you to review your work. All grade changes must be completed in person and cannot be done over e-mail.
+
+Assignments that you turn in should be your own work. It is fine to talk to other students and to get assistance in how to do something, but you should not ask your fellow students to actually do the work for you. When you turn in an assignment, you are saying that you have done this work yourself. The definition of plagiarism is to present someone else’s work as though it were your own. Please read the Computer Science Department statement on academic integrity for more information.
+
+
+Software
+
+The main software package that we will be working with this semester is the Python programming language. Python is an open-source project, and anyone can get their own copy free of charge at http://www.python.org/download. We will be using Python 3.7.5 this semester. Installation instructions are posted to the Common Syllabus at https://cs.nyu.edu/courses/spring20/CSCI-UA.0002-002/common_syllabus/#software
+
+Personal Computers
+
+Because this class involves in-class programming assignments, it's highly encouraged that you bring a laptop to class. If you don't have a laptop during in-class work, then you may work with a partner (see cooperation and acknowledgements). Keep in mind that computers often have hardware related problems and you should save your work often and back it up to a separate device. If you don't have a computer you can use the NYU computer labs (see below).
